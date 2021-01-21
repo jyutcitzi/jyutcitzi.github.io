@@ -1,0 +1,17 @@
+.jumbotron { padding: 2rem 1rem; margin-bottom: 2rem; background-color: #e9ecef; border-radius: .3rem; }
+
+* { font-family: JyutcitziWithSourceHanSansHC; }
+
+ul.nav-pills { bottom: 20px; position: fixed; }
+
+@font-face { font-family: 'JyutcitziWithSourceHanSansHC'; src: url("../fonts/JyutcitziWithSourceHanSansHCExtraLight.ttf") format("truetype"); font-weight: 200; font-style: normal; }
+
+@font-face { font-family: 'JyutcitziWithSourceHanSansHC'; src: url("../fonts/JyutcitziWithSourceHanSansHCLight.ttf") format("truetype"); font-weight: 300; font-style: normal; }
+
+@font-face { font-family: 'JyutcitziWithSourceHanSansHC'; src: url("../fonts/JyutcitziWithSourceHanSansHCNormal.ttf") format("truetype"); font-weight: 400; font-style: normal; }
+
+@font-face { font-family: 'JyutcitziWithSourceHanSansHC'; src: url("../fonts/JyutcitziWithSourceHanSansHCMedium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
+
+@font-face { font-family: 'JyutcitziWithSourceHanSansHC'; src: url("../fonts/JyutcitziWithSourceHanSansHCHeavy.ttf") format("truetype"); font-weight: 900; font-style: normal; }
+
+/*# sourceMappingURL=styles.css.map */

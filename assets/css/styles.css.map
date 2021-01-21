@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/jumbotron.scss",
+		"_sass/sourcehansans_jcz.scss"
+	],
+	"sourcesContent": [
+		"@import \"jumbotron\";\n@import \"sourcehansans_jcz\";\n",
+		".jumbotron {\n  padding: 2rem 1rem;\n  margin-bottom: 2rem;\n  background-color: #e9ecef;\n  border-radius: .3rem;\n}\n",
+		"* {\n  font-family: JyutcitziWithSourceHanSansHC;\n}\n\n// body {\n//   position: relative;\n// }\nul.nav-pills {\n  bottom: 20px;\n  position: fixed;\n}\n// div.col-8 div {\n//   height: 500px;\n// }\n\n@font-face {\n  font-family: 'JyutcitziWithSourceHanSansHC';\n  src: url('../fonts/JyutcitziWithSourceHanSansHCExtraLight.ttf') format(\"truetype\");\n  font-weight: 200; // extra light\n  font-style: normal;\n}\n@font-face {\n  font-family: 'JyutcitziWithSourceHanSansHC';\n  src: url('../fonts/JyutcitziWithSourceHanSansHCLight.ttf') format(\"truetype\");\n  font-weight: 300; // light\n  font-style: normal;\n}\n@font-face {\n  font-family: 'JyutcitziWithSourceHanSansHC';\n  src: url('../fonts/JyutcitziWithSourceHanSansHCNormal.ttf') format(\"truetype\");\n  font-weight: 400; // normal\n  font-style: normal;\n}\n@font-face {\n  font-family: 'JyutcitziWithSourceHanSansHC';\n  src: url('../fonts/JyutcitziWithSourceHanSansHCMedium.ttf') format(\"truetype\");\n  font-weight: 500; // medium\n  font-style: normal;\n}\n@font-face {\n  font-family: 'JyutcitziWithSourceHanSansHC';\n  src: url('../fonts/JyutcitziWithSourceHanSansHCHeavy.ttf') format(\"truetype\");\n  font-weight: 900; // heavy\n  font-style: normal;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,UAAU,CAAC,EACT,OAAO,EAAE,SAAS,EAClB,aAAa,EAAE,IAAI,EACnB,gBAAgB,EAAE,OAAO,EACzB,aAAa,EAAE,KAAK,GACrB;;ACLD,AAAA,CAAC,CAAC,EACA,WAAW,EAAE,4BAA4B,GAC1C;;AAKD,AAAA,EAAE,AAAA,UAAU,CAAC,EACX,MAAM,EAAE,IAAI,EACZ,QAAQ,EAAE,KAAK,GAChB;;AAKD,UAAU,GACR,WAAW,EAAE,8BAA8B,EAC3C,GAAG,EAAE,0DAA0D,CAAC,kBAAkB,EAClF,WAAW,EAAE,GAAG,EAChB,UAAU,EAAE,MAAM;;AAEpB,UAAU,GACR,WAAW,EAAE,8BAA8B,EAC3C,GAAG,EAAE,qDAAqD,CAAC,kBAAkB,EAC7E,WAAW,EAAE,GAAG,EAChB,UAAU,EAAE,MAAM;;AAEpB,UAAU,GACR,WAAW,EAAE,8BAA8B,EAC3C,GAAG,EAAE,sDAAsD,CAAC,kBAAkB,EAC9E,WAAW,EAAE,GAAG,EAChB,UAAU,EAAE,MAAM;;AAEpB,UAAU,GACR,WAAW,EAAE,8BAA8B,EAC3C,GAAG,EAAE,sDAAsD,CAAC,kBAAkB,EAC9E,WAAW,EAAE,GAAG,EAChB,UAAU,EAAE,MAAM;;AAEpB,UAAU,GACR,WAAW,EAAE,8BAA8B,EAC3C,GAAG,EAAE,qDAAqD,CAAC,kBAAkB,EAC7E,WAAW,EAAE,GAAG,EAChB,UAAU,EAAE,MAAM"
+}
