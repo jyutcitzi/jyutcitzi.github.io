@@ -9,17 +9,14 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link type="application/atom+xml" rel="alternate" href="/feed.xml" />
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>討論</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="討論" />
 <meta property="og:locale" content="en_US" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="討論" />
 <script type="application/ld+json">
-{"headline":"討論","url":"/discussion.html","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"/test.html","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <title>討論</title>
+    <title></title>
     <link rel="shortcut icon" href="/assets/images/favicon.ico">
   </head>
   <body>
@@ -88,13 +85,28 @@
 
     <div class="flex-wrapper">
       <div class="container-fluid">
-          <h1>討論</h1>
-<p></p>
+        <div class="row">
+          <div class="col">
+            <textarea placeholder="Input Text Here" id="bigtextarea" name="w3review" onkeyup="check(this);auto_grow(this);"></textarea>
+          </div>
+          <div class="col">
+            <textarea placeholder="Transliteration" readonly id="bigtextarea2" name="w3review2" onkeyup="check(this);"></textarea>
+          </div>
+        </div>
 
-<p>歡迎大家(join)我倛旡<a href="https://t.me/jyutzigoigaak"> Telegram 粵切字討論公海</a>，黎傾下粵切字未來旡發展！</p>
-
+        <form id="the-form">
+          <input type="submit" value="Save Text To Browser's Local Storage">
+        </form>
 
       </div>
+      <!-- Load JQuery -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+      <!-- Load Transliteration Scripts -->
+      <script src="assets/js/persist.js"></script>
+      <script src="assets/js/copy.js"></script>
 
       <!-- Copyright -->
       <div class="text-center p-3 footer" style="background-color: rgba(0, 0, 0, 0.05)">
@@ -115,10 +127,7 @@
       </div>
     </div>
 
-    <!-- Load JQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
